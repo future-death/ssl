@@ -1,4 +1,5 @@
-yum update -y curl socat crontabs
+yum update 
+yum install -y curl socat crontabs
 curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh --register-account -m xunfeng04@gmail.com
 ~/.acme.sh/acme.sh  --issue -d creed.eu.org   --standalone
