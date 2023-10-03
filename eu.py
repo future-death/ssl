@@ -19,15 +19,15 @@ from gmail_api import *
 dir_name = os.path.dirname(os.path.abspath(__file__)) + os.sep
 os.chdir(dir_name)
 
-TG_BOT_TOKEN = '6502230879:AAGSdqivbzIzDMz3Ya8aap1rHeTb3dQxr9I'
+TG_BOT_TOKEN = '6340172415:AAFLXjmeFaa2JrRhPoXNcrhjGnQ3U9sI8-o'
 TG_USER_ID = '1034886025'
 TG_API_HOST = 'api.telegram.org'
 
 USERNAME = os.environ.get("EUSERV_USERNAME", "cellsdance@gmail.com")  
 PASSWORD = os.environ.get("EUSERV_PASSWORD", "FQCfqc5001017892") 
 
-TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "cellsdance@gmail.com")
-TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "qRsQuuHqooeNlxKAxtsz")
+TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "cellsdance")
+TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "rNirT7v5rMhBdd6xFLrh")
 
 PIN_KEY_WORD = 'EUserv'
 
